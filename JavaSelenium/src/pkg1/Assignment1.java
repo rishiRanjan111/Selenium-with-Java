@@ -22,11 +22,11 @@ public class Assignment1 {
 	public static void main(String[] args) {
 		
 		Assignment1 obj1=new Assignment1();
-		int sumResult = obj1.add(10, 2);
+		int sumResult = obj1.add(10, 20);
 		int sumResult1 = obj1.add(sumResult, 2);
 		int subResult = obj1.sub(sumResult1, 2);
 		int multResult = obj1.multiply(subResult, 2);
-		obj1.divide(multResult, 2);
+		obj1.divide(multResult, 10);
 	}
 
 }
